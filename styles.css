@@ -1,0 +1,100 @@
+* {
+    box-sizing: border-box;
+    font-family: "Shantell Sans", sans-serif;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+    background: lightyellow;
+    font-weight: 300;
+    font-size: 16px;
+  }
+  
+  #survey-form {
+    width: 80%;
+    background-color: burlywood;
+    margin: 10px auto;
+    padding: 40px;
+    max-width: 800px;
+  }
+  
+  .icon {
+    color: yellow;
+  }
+  
+  h1 {
+    font-weight: 800;
+  }
+  
+  #description {
+    font-weight: 500;
+    font-size: 1.2rem;
+  }
+  
+  h1, #description {
+    margin: 1rem auto;
+    text-align: center;
+  }
+  
+  hr {
+    height: 2px;
+    background-color: yellow;
+    border-color: yellow;
+  }
+  
+  h2 {
+    font-weight: 500;
+  }
+  
+  label {
+    display: block;
+    margin: 0.5rem 0;
+  } 
+  
+  input, textarea, select {
+    margin: 10px 0 0 0;
+    width: 100%;
+    min-height: 2.5rem;
+    border-radius: 5px;
+    border: 0;
+  }
+  
+  fieldset {
+    border: 0;
+  }
+  
+  .inline {
+    width: unset;
+    margin: 0 0.5rem 0 0;
+    vertical-align: middle;
+  }
+  
+  .customer-privacy {
+    font-size: 0.9rem;
+    margin: 5px 0;
+  }
+  
+  button[type="submit"] {
+    display: block;
+    width: 40%;
+    height: 2rem;
+    padding: 0.2rem;
+    margin: 1em auto;
+    background-color: lightyellow;
+    border-radius: 5px;
+    border:0;
+    font-size: 1.2rem;
+    min-width: 300px;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: yellow;
+  }
+  
+  @media (max-width: 768px) {
+    #survey-form{
+      width: 100%;
+      margin: 0;
+    }
+  }
